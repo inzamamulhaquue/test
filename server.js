@@ -10,7 +10,7 @@ connectDatabase();
 
 const port = process.env.port || 6006;
 
-// Middleware 
+// Middleware function in here
 const logrequest = (req, res, next) =>{
     console.log(`[${new Date().toLocaleString()}] Request Made to : ${req.originalUrl}`);
     next();
