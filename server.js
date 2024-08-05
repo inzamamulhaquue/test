@@ -16,6 +16,7 @@ const candidateRoutes = require('./routes/candidateRoute');
 // use route
 app.use('/user', userRoutes);
 app.use('/candidate', candidateRoutes);
+// add comment try to hit github
 
 
 app.listen(port, () =>{
